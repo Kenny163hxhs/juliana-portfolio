@@ -1,0 +1,582 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The personal portfolio of Juliana Deloso, featuring her background, education, interests, and reflections.">
+
+    <title>Juliana Deloso | Personal Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main navigation">
+
+           
+<a class="brand" href="#home" aria-label="Go to homepage">
+    <img class="brand-logo" src="logo.png" alt="Juliana Deloso logo">
+</a>
+
+
+            <button
+                type="button"
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-controls="navLinks"
+                aria-expanded="false">
+                ☰
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#interests">Interests</a>
+                <a href="#reflection">Reflection</a>
+                <a href="#contact" class="nav-cta">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero-grid container">
+
+                <div class="hero-copy">
+                    <p class="eyebrow">
+                        <span class="eyebrow-line"></span>
+                        MY PERSONAL PORTFOLIO
+                    </p>
+
+                    <h1>
+                        Hello, I'm<br>
+                        <span>Juliana Deloso.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        A student who believes in continuous learning,
+                        personal growth, and discovering new opportunities
+                        to build a better future.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#about" class="button button-primary">
+                            Discover My Story
+                        </a>
+
+                        <a href="#contact" class="text-link">
+                            Get in Touch →
+                        </a>
+                    </div>
+
+                    <div class="hero-meta">
+                        <div>
+                            <span class="meta-number">01</span>
+                            <span class="meta-label">My Background</span>
+                        </div>
+
+                        <div>
+                            <span class="meta-number">02</span>
+                            <span class="meta-label">My Education</span>
+                        </div>
+
+                        <div>
+                            <span class="meta-number">03</span>
+                            <span class="meta-label">My Goals</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-art">
+                    <div class="art-orbit orbit-one"></div>
+                    <div class="art-orbit orbit-two"></div>
+                    <div class="decor decor-a"></div>
+                    <div class="decor decor-b"></div>
+
+                    <article class="profile-card">
+
+                        <div class="profile-top">
+                            <span class="status-dot"></span>
+                            <span class="card-index">PERSONAL PROFILE · 01</span>
+                        </div>
+
+                        <!-- Profile Photo -->
+                        <div class="profile-photo">
+                            <img
+                                id="profilePhoto"
+                                src="profile.png"
+                                alt="Portrait of Juliana Deloso"
+                                onerror="this.hidden=true; document.getElementById('avatarPlaceholder').hidden=false;">
+
+                            <div
+                                class="avatar-placeholder"
+                                id="avatarPlaceholder"
+                                hidden>
+                                <span>JD</span>
+                            </div>
+                        </div>
+
+                        <p class="card-kicker">GET TO KNOW ME</p>
+                        <h2>Juliana Deloso</h2>
+                        <p class="card-course">Student · Lifelong Learner</p>
+
+                        <div class="card-bottom">
+                            <span>Growing with purpose</span>
+                            <span aria-hidden="true">✳</span>
+                        </div>
+
+                    </article>
+
+                    <div class="floating-note">
+                        <span class="note-icon" aria-hidden="true">✳</span>
+                        <div>
+                            <small>A little reminder</small>
+                            <strong>Keep learning. Keep growing.</strong>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section section" id="about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">01 — ABOUT ME</p>
+
+                    <h2>
+                        Every story begins<br>
+                        with <span>knowing yourself.</span>
+                    </h2>
+
+                    <p class="section-intro">
+                        A little introduction to who I am, what I value,
+                        and the experiences that continue to shape me.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+
+                    <article class="info-panel">
+                        <div class="panel-heading">
+                            <span class="panel-icon">01</span>
+                            <div>
+                                <p class="eyebrow">GETTING PERSONAL</p>
+                                <h3>Personal Information</h3>
+                            </div>
+                        </div>
+
+                        <dl class="details-list">
+                            <div>
+                                <dt>Full Name</dt>
+                                <dd>Juliana Deloso</dd>
+                            </div>
+
+                            <div>
+                                <dt>Current Role</dt>
+                                <dd>Student</dd>
+                            </div>
+
+                            <div>
+                                <dt>Personal Value</dt>
+                                <dd>Continuous Learning</dd>
+                            </div>
+
+                            <div>
+                                <dt>Personal Goal</dt>
+                                <dd>Growth and Self-Improvement</dd>
+                            </div>
+                        </dl>
+                    </article>
+
+                    <article class="info-panel about-story">
+                        <div class="panel-heading">
+                            <span class="panel-icon">02</span>
+                            <div>
+                                <p class="eyebrow">MY STORY</p>
+                                <h3>A Little About Me</h3>
+                            </div>
+                        </div>
+
+                        <p>
+                            I am someone who values learning, personal
+                            development, and the opportunity to improve
+                            through experience. I believe that every
+                            challenge can teach an important lesson.
+                        </p>
+
+                        <p>
+                            I continue to discover my strengths, work on
+                            areas where I can improve, and develop the
+                            confidence to pursue my goals. My journey is
+                            a reminder that progress comes from patience,
+                            effort, and consistency.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education-section section" id="education">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">02 — EDUCATION</p>
+
+                    <h2>
+                        Learning is part of<br>
+                        <span>my journey.</span>
+                    </h2>
+
+                    <p class="section-intro">
+                        Education helps me build knowledge, develop skills,
+                        and prepare for future opportunities.
+                    </p>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon" aria-hidden="true">✦</div>
+
+                    <div class="education-content">
+                        <p class="education-label">MY EDUCATIONAL JOURNEY</p>
+                        <h3>My Learning Experience</h3>
+
+                        <p>
+                            Throughout my education, I continue to gain
+                            knowledge, learn from different experiences,
+                            and develop the skills that can help me achieve
+                            my personal and academic goals.
+                        </p>
+
+                        <p class="education-note">
+                            Add your school name, program, and school year
+                            here if you want to display your specific
+                            educational background.
+                        </p>
+                    </div>
+
+                    <span class="education-number">02</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Interests Section -->
+        <section class="interests-section section" id="interests">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">03 — MY INTERESTS</p>
+
+                    <h2>
+                        Things that inspire<br>
+                        <span>and motivate me.</span>
+                    </h2>
+
+                    <p class="section-intro">
+                        These interests represent areas where I can explore,
+                        learn, and continue developing myself.
+                    </p>
+                </div>
+
+                <div class="interest-grid">
+
+                    <article class="interest-card">
+                        <span class="interest-number">INTEREST 01</span>
+                        <div class="interest-symbol" aria-hidden="true">✧</div>
+                        <h3>Learning</h3>
+                        <p>
+                            Discovering new ideas and gaining knowledge
+                            that helps me grow personally and academically.
+                        </p>
+                        <span class="interest-line"></span>
+                    </article>
+
+                    <article class="interest-card interest-featured">
+                        <span class="interest-number">INTEREST 02</span>
+                        <div class="interest-symbol" aria-hidden="true">✳</div>
+                        <h3>Creativity</h3>
+                        <p>
+                            Exploring ideas, expressing myself, and finding
+                            thoughtful ways to approach challenges.
+                        </p>
+                        <span class="interest-line"></span>
+                    </article>
+
+                    <article class="interest-card">
+                        <span class="interest-number">INTEREST 03</span>
+                        <div class="interest-symbol" aria-hidden="true">◇</div>
+                        <h3>Personal Growth</h3>
+                        <p>
+                            Building confidence, improving my skills,
+                            and learning from everyday experiences.
+                        </p>
+                        <span class="interest-line"></span>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Reflection Section -->
+        <section class="reflection-section section" id="reflection">
+            <div class="container reflection-grid">
+
+                <div class="reflection-intro">
+                    <p class="eyebrow">04 — PERSONAL REFLECTION</p>
+
+                    <h2>
+                        Growing through<br>
+                        <span>every experience.</span>
+                    </h2>
+
+                    <p>
+                        Reflection allows me to understand myself better,
+                        recognize what I have learned, and identify how
+                        I can continue improving.
+                    </p>
+
+                    <div class="reflection-stamp">
+                        <span>A NOTE TO MYSELF</span>
+                        <strong>Progress over perfection.</strong>
+                    </div>
+                </div>
+
+                <div class="reflection-container">
+
+                    <div class="reflection-header">
+                        <span class="reflection-label">MY REFLECTION JOURNAL</span>
+                        <h2>Lessons Along the Way</h2>
+                        <p>
+                            Six reminders about learning, growth, and
+                            becoming a better version of myself.
+                        </p>
+                    </div>
+
+                    <div class="reflection-list">
+
+                        <article class="reflection-item">
+                            <span class="reflection-num">01</span>
+                            <div>
+                                <h3>Knowing Myself</h3>
+                                <p>
+                                    Understanding my strengths and weaknesses
+                                    helps me recognize what I can do well
+                                    and what I still need to improve.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="reflection-item">
+                            <span class="reflection-num">02</span>
+                            <div>
+                                <h3>Learning from Challenges</h3>
+                                <p>
+                                    Challenges may be difficult, but they
+                                    teach me patience, responsibility, and
+                                    the importance of continuing to try.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="reflection-item">
+                            <span class="reflection-num">03</span>
+                            <div>
+                                <h3>Valuing Education</h3>
+                                <p>
+                                    Education gives me opportunities to
+                                    gain knowledge, develop useful skills,
+                                    and prepare for the future.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="reflection-item">
+                            <span class="reflection-num">04</span>
+                            <div>
+                                <h3>Building Confidence</h3>
+                                <p>
+                                    I can build confidence by trusting my
+                                    abilities, taking opportunities, and
+                                    learning from both success and mistakes.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="reflection-item">
+                            <span class="reflection-num">05</span>
+                            <div>
+                                <h3>What I Can Improve</h3>
+                                <p>
+                                    I can improve by managing my time
+                                    better, practicing consistently, and
+                                    being open to feedback.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="reflection-item">
+                            <span class="reflection-num">06</span>
+                            <div>
+                                <h3>Personal Realization</h3>
+                                <p>
+                                    I have realized that growth does not
+                                    require perfection. What matters is
+                                    learning, trying again, and moving forward.
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
+
+                    <div class="scroll-hint">
+                        <span>End of my reflection</span>
+                        <span class="scroll-arrow" aria-hidden="true">↓</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+<section class="contact-section section" id="contact">
+    <div class="container contact-inner">
+        <p class="eyebrow">05 — CONTACT</p>
+
+        <h2>
+            Let's connect and<br>
+            <span>start a conversation.</span>
+        </h2>
+
+        <p>
+            Thank you for visiting my personal portfolio.
+            Feel free to reach out to connect or learn more about me.
+        </p>
+
+       
+<div class="contact-info">
+    <div class="contact-item">
+        <h3>Phone Number</h3>
+        <a href="tel:09516499217">0951 649 9217</a>
+    </div>
+
+    <div class="contact-item">
+        <h3>Address</h3>
+        <p>Purok Pioneer, Sto. Niño, South Cotabato</p>
+    </div>
+</div>
+
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+
+            <a href="#home" class="brand footer-brand">
+                <span class="brand-mark">JD</span>
+                <span>Juliana Deloso</span>
+            </a>
+
+            <p class="copyright">
+                © <span id="currentYear"></span> Juliana Deloso.
+                All rights reserved.
+            </p>
+
+            <a href="#home" class="back-top" aria-label="Back to top">↑</a>
+
+        </div>
+    </footer>
+
+
+
+<!-- CONTACT INFORMATION MODAL -->
+<div
+    class="contact-modal"
+    id="contactModal"
+    aria-hidden="true"
+>
+    <div
+        class="contact-modal-overlay"
+        id="contactModalOverlay"
+    ></div>
+
+    <div
+        class="contact-modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="contactModalTitle"
+    >
+        <button
+            type="button"
+            class="contact-modal-close"
+            id="closeContactModal"
+            aria-label="Close contact information"
+        >
+            &times;
+        </button>
+
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2 id="contactModalTitle">Contact Information</h2>
+        <p class="contact-modal-description">
+            Feel free to contact me using the details below.
+        </p>
+
+        <div class="modal-contact-list">
+            <div class="modal-contact-item">
+                <span class="modal-contact-icon">☎</span>
+                <div>
+                    <span class="modal-contact-label">Phone Number</span>
+                    <a href="tel:09516499217">0951 649 9217</a>
+                </div>
+            </div>
+
+            <div class="modal-contact-item">
+                <span class="modal-contact-icon">✉</span>
+                <div>
+                    <span class="modal-contact-label">Email Address</span>
+                    <p>Replace this with your actual email address</p>
+                </div>
+            </div>
+
+            <div class="modal-contact-item">
+                <span class="modal-contact-icon">⌖</span>
+                <div>
+                    <span class="modal-contact-label">Address</span>
+                    <p>Purok Pioneer, Sto. Niño, South Cotabato</p>
+                </div>
+            </div>
+        </div>
+
+        <button
+            type="button"
+            class="button button-dark modal-done-button"
+            id="doneContactModal"
+        >
+            Close
+        </button>
+    </div>
+</div>
+</body>
+</html>
+
